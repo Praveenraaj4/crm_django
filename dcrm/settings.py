@@ -74,16 +74,16 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'myapp',
-#         'USER': 'root',
-#         'PASSWORD' : 'Mysql@123',
-#         'HOST': 'localhost',
-#         'PORT': '3306',
-#     }
-# }
+DATABASES = {
+     'default': {
+         'ENGINE': 'django.db.backends.mysql',
+         'NAME': 'mylocal',
+         'USER': 'mylocal',
+         'PASSWORD' : 'Mydata@12',
+         'HOST': 'mylocal.mysql.pythonanywhere-services.com',
+         'PORT': '3306',
+     }
+ }
 
 
 # Password validation
